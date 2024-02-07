@@ -1,5 +1,6 @@
 //Example for C++ Encapsulation
 #include <iostream>
+#include <string>
 
 class bank{
     private:
@@ -11,11 +12,14 @@ class bank{
 
 int main(){
     int lol;
-    std::cout<<"Hello, type in your things";
+    std::string accountname;
+    std::cout<<"Hello, type in your number \n";
     std::cin>>lol;
+    std::cout<<"Also type in your name"<<std::endl;
+    getline(std::cin, accountname);
     bank mya;
     mya.setnumber(lol);
-    std::cout<<"Your number is:"<<mya.getnumber()<<std::endl;
+    std::cout<<"Your number is: "<<mya.getnumber()<<std::endl;
     return 0;
 }
 
