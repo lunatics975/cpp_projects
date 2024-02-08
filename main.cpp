@@ -22,6 +22,9 @@ int main(){
     int lol;
     int a, b=10, c;
     a = b = 10;
+    int z = a+b/8*7%3-5;
+    b--;
+    c++;
     std::string accountname;
     std::cout<<"Hello, type in your number \n";
     std::cin>>lol;
