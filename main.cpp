@@ -1,4 +1,4 @@
-//Example for C++ Encapsulation
+//Example for C++
 #include <iostream>
 #include <string>
 /*creates class bank*/
@@ -25,10 +25,11 @@ int main(){
     int z = a+b/8*7%3-5;
     b--;
     c++;
+    std::cout<<(b>c);
     std::string accountname;
     std::cout<<"Hello, type in your number \n";
     std::cin>>lol;
-    std::cout<<"Also type in your name"<<std::endl;
+    std::cout<<"Also type in your name"<<std::endl; 
     std::cout<<"Hi\\lollol\"lostx3\"haha\tlost"<<std::endl;
     getline(std::cin, accountname);
     //new object myaccount
